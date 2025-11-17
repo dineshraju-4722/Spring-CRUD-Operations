@@ -1,4 +1,4 @@
-#🎓 Student CRUD API (Spring Boot + Gradle + H2 + JPA)  
+# 🎓 Student CRUD API (Spring Boot + Gradle + H2 + JPA)  
 
 This is a basic Spring Boot application demonstrating CRUD operations (Create, Read, Update, Delete) for managing Student records.  
 It uses Spring Data JPA for database interactions and H2 in-memory database for quick setup and testing.
