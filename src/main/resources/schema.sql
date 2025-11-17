@@ -1,0 +1,1 @@
+create table if not exists student(id int primary key,name varchar(20),age int,email varchar(25) unique);
