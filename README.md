@@ -60,13 +60,15 @@ cd Spring-CRUD-Operations
 ./gradlew bootRun     # Linux/Mac
 gradlew bootRun       # Windows
 
-
-     📦 Running the Application as a JAR
-      * Build the JAR
-         ./gradlew build
-
-      * Run the JAR
-          java -jar build/libs/Spring-CRUD-Operations-0.0.1-SNAPSHOT.jar
+ **
+    # Execution Successful
+    2025-11-28T15:26:14.814+05:30  INFO 8268 --- [Student] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+    2025-11-28T15:26:14.924+05:30  INFO 8268 --- [Student] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+    2025-11-28T15:26:14.959+05:30  INFO 8268 --- [Student] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+    2025-11-28T15:26:14.959+05:30  INFO 8268 --- [Student] [  restartedMain] c.Stud_crud.Student.StudentApplication   : Started StudentApplication in 4.712 seconds (process running for 5.33)
+    <==========---> 80% EXECUTING [14s]
+ **
+     
 
 ## 4️⃣ Access API Endpoints
 
@@ -83,6 +85,9 @@ http://localhost:8080/h2-console
    User: sa
    Password: (leave blank)
 ```
+
+
+
 
 
 
